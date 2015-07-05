@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgrey"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_nano_app"
+        android:padding="20dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:textSize="24sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/udaciousorange"
+            android:text="@string/spotify_streamer"
+            android:padding="15dp"
+            android:layout_margin="5dp"
+            android:id="@+id/spotifystreamer"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/udaciousorange"
+            android:text="@string/scores_app"
+            android:padding="15dp"
+            android:layout_margin="5dp"
+            android:id="@+id/scoresapp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/udaciousorange"
+            android:text="@string/library_app"
+            android:padding="15dp"
+            android:layout_margin="5dp"
+            android:id="@+id/libraryapp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/udaciousorange"
+            android:text="@string/build_it_bigger"
+            android:padding="15dp"
+            android:layout_margin="5dp"
+            android:id="@+id/builditbigger"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/udaciousorange"
+            android:text="@string/xyz_reader"
+            android:padding="15dp"
+            android:layout_margin="5dp"
+            android:id="@+id/xyzreader"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/udaciousred"
+            android:textColor="@color/white"
+            android:text="@string/capstone"
+            android:padding="15dp"
+            android:layout_margin="5dp"
+            android:id="@+id/capstone"/>
+    </LinearLayout>
+
+
+</LinearLayout>
